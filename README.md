@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,93 +40,23 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Workiva](https://www.workiva.com/)**  
-
-  Connected reporting platform that unifies financial and ESG disclosure with strong controls, audit trails, and multi-framework support (SEC, CSRD, etc.).
-
-
-
-- **[Sphera / SpheraCloud](https://sphera.com/)**  
-
-  Enterprise sustainability and EHS platform covering carbon, product compliance, and operational ESG management.
-
-
-
-- **[Persefoni](https://persefoni.com/)**  
-
-  Climate management and carbon accounting platform focused on audit-ready Scope 1/2/3 inventories and financed-emissions reporting.
-
-
-
-- **[Watershed](https://watershed.com/)**  
-
-  Enterprise climate platform for measuring emissions, engaging suppliers, and driving decarbonization with high-quality factor libraries.
-
-
-
-- **[Sweep](https://www.sweep.net/)**  
-
-  Sustainability data and carbon platform emphasizing value-chain collaboration, data collection, and multi-entity emissions management.
-
-
-
-- **[Diligent ESG](https://www.diligent.com/)**  
-
-  ESG and governance solution within the Diligent suite, strong on board-level reporting, risk, and disclosure workflows.
-
-
-
-- **[Novisto](https://novisto.com/)**  
-
-  ESG data management and multi-framework reporting platform designed for structured disclosure and assurance-ready data.
-
-
-
-- **[Plan A](https://plana.earth/)**  
-
-  Climate and ESG platform helping companies measure, report, and reduce their environmental impact.
-
-
-
-- **[Greenly](https://greenly.earth/)**  
-
-  Carbon accounting and ESG reporting solution popular with mid-market companies seeking accessible climate tools.
-
-
-
-- **[FigBytes](https://www.figbytes.com/)**  
-
-  Sustainability performance and ESG reporting platform focused on data collection, analysis, and stakeholder reporting.
-
-
-
-- **[IBM Envizi](https://www.ibm.com/products/envizi)**  
-
-  Enterprise ESG and environmental data management platform with strong operational data integration and reporting capabilities.
-
-
-
-- **[Greenstone](https://www.greenstoneplus.com/)**  
-
-  Sustainability and ESG software used for environmental data management and reporting.
-
-
-
-- **[Position Green](https://www.positiongreen.com/)**  
-
-  Sustainability performance management and reporting platform supporting ESG data workflows and disclosure.
-
-
-
-- **[Intelex ESG](https://www.intelex.com/)**  
-
-  ESG and EHS management capabilities within the Intelex platform for operational sustainability tracking.
-
-
-
-- **[Measurabl](https://www.measurabl.com/)**  
-
-  ESG data management platform particularly strong for real-estate and built-environment sustainability reporting.
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Workiva](https://www.workiva.com/)** | Connected reporting platform unifying financial, GRC, and ESG disclosures with multi-framework audit trails (SEC, CSRD, GRI, TCFD). | Starts at ~$36,000/year (~$3,000/month) for base reporting modules | 14-day guided enterprise sandbox / pilot on request with sample ESG dataset (no free-forever plan) |
+| **[Sphera / SpheraCloud](https://sphera.com/)** | Enterprise sustainability and EHS platform covering carbon accounting, LCA product compliance, and operational ESG workflows. | Starts at ~$12,000/year (~$1,000/month) for entry module; enterprise suites scale by facility count | 30-day free trial for LCA software (LCA for Experts); 14-day guided pilot for SpheraCloud ESG modules (no free-forever plan) |
+| **[Persefoni](https://persefoni.com/)** | Climate management and carbon accounting platform focused on audit-ready Scope 1/2/3 inventories and financed emissions (PCAF). | Free ($0/year via Persefoni Pro); Advanced/Enterprise starts at ~$55,000/year | Free-forever plan (Persefoni Pro) for SMBs with unlimited duration, full Scope 1-3 footprinting (all 15 categories), AI Copilot, CSRD/CDP report builder, 1 organization entity |
+| **[Watershed](https://watershed.com/)** | Enterprise climate management platform for measuring emissions, supplier decarbonization, and ESG disclosure with extensive factor libraries. | Starts at ~$30,000–$37,000/year (~$2,500/month) for core footprinting; enterprise scales $50,000–$250,000+/year | Free access to Open CEDA emissions factor dataset; 30-day scoped enterprise Proof-of-Concept (POC) pilot upon qualification (no free-forever software tier) |
+| **[Sweep](https://www.sweep.net/)** | Collaborative ESG and carbon platform emphasizing supply chain data collection, emission reduction targets, and multi-entity tracking. | Starts at ~$250/month (~$3,000/year) for mid-market starter tier; enterprise plans from €10,000+/year | 14-day full-access trial / guided sandbox with up to 5 user invites upon demo qualification (no free-forever tier) |
+| **[Diligent ESG](https://www.diligent.com/)** | Integrated GRC and ESG platform for board-level oversight, audit-grade carbon calculations, and regulatory disclosure workflows. | Starts at $5,000/feature/year (~$417/month per module); full enterprise suites average ~$23,000–$25,000/year | 14-day to 30-day guided trial / sandbox environment available during sales discovery consultation (no free-forever tier) |
+| **[Novisto](https://novisto.com/)** | Specialized ESG data management and reporting software engineered for structured disclosure, multi-framework alignment, and assurance readiness. | Starts at ~CA$40,000/year (~US$29,500/year; ~$2,460/month) for core ESG reporting modules | 14-day guided proof-of-concept trial with scoped data ingestion during sales evaluation (no free-forever tier) |
+| **[Plan A](https://plana.earth/)** | Certified B Corp carbon accounting and ESG platform helping businesses automate Scope 1-3 data collection and CSRD alignment. | Starts at ~€1,200–€1,500/month (~€14,400–€18,000/year) for SMB carbon accounting tiers | Free web emissions calculator; 14-day guided pilot trial with sample company emissions data upload upon consultation (no free-forever tier) |
+| **[Greenly](https://greenly.earth/)** | Automated carbon accounting and ESG disclosure platform tailored for SMBs and mid-market organizations with extensive app integrations. | Starts at $1,950/year (~$162.50/month) for starter footprinting; GHG compliance packages start at $3,800/year | Free-forever web carbon calculator & CSRD/CBAM readiness assessment tools (single calculation estimate without continuous audit trail / sync); 14-day pilot upon sales onboarding |
+| **[FigBytes](https://www.figbytes.com/)** | Comprehensive sustainability management platform connecting carbon, water, waste, and social impact metrics to strategic frameworks. | Starts at ~$15,000–$20,000/year (~$1,250–$1,667/month) for core sustainability and disclosure modules | 14-day interactive guided trial / proof of concept following a technical scoping demo (no free-forever tier) |
+| **[IBM Envizi](https://www.ibm.com/products/envizi)** | Enterprise-grade ESG suite automating utility, energy, and supply chain data collection with audit-ready GHG reporting capabilities. | Starts at ~$30,000/year (~$2,500/month) for Envizi Essentials (based on up to 50 locations/accounts) | 30-day interactive guided product tour and trial sandbox with preloaded sample ESG data (no free-forever tier) |
+| **[Greenstone](https://www.greenstoneplus.com/)** | Enterprise ESG and supply chain sustainability software (part of Cority) delivering investor-grade reporting and supplier engagement. | Starts at ~$18,000–$24,000/year (~$1,500–$2,000/month) for base ESG data management module | 14-day guided pilot with up to 10 user accounts following initial solution scoping (no free-forever tier) |
+| **[Position Green](https://www.positiongreen.com/)** | End-to-end ESG software suite offering automated data collection, CSRD / ESRS readiness assessments, and supplier risk analysis. | Starts at ~€1,200/month (~€14,400/year; ~$15,500/year) for single-entity ESG starter packages | Free CSRD readiness test and questionnaire; 14-day structured software pilot upon qualification (no free-forever tier) |
+| **[Intelex ESG](https://www.intelex.com/)** | Environmental, Social, and Governance management system integrating operational safety, compliance, and sustainability tracking. | Starts at $49/user/month (min. 25 users, billed annually at ~$14,700/year) for safety & ESG essentials | 30-day free trial with full module functionality and up to 25 test user seats for safety/ESG essentials |
+| **[Measurabl](https://www.measurabl.com/)** | Leading real estate ESG platform for tracking energy, water, carbon, and sustainability benchmarks across commercial property portfolios. | Starts at ~$16,200/year (~$1,350/month) for standard building portfolio ESG data subscriptions | Free portfolio benchmark summary tool; 14-day guided trial / portfolio audit preview upon demo request (no free-forever tier) |
 
 
 
