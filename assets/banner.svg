@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061a14">
+        <animate attributeName="stop-color" values="#061a14;#082d24;#0a1f2e;#061a14" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#0b382c">
+        <animate attributeName="stop-color" values="#0b382c;#0a4537;#113047;#0b382c" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#04130e">
+        <animate attributeName="stop-color" values="#04130e;#061f18;#051824;#04130e" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="emeraldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+        font-weight: 900;
+        font-size: 46px;
+        fill: #ffffff;
+        letter-spacing: -0.5px;
+      }
+      .sub-text {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        font-size: 19px;
+        fill: #94a3b8;
+        letter-spacing: 0.2px;
+      }
+      .badge-text {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        fill: #10b981;
+      }
+      .pill-text {
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+      .pulse-circle {
+        animation: pulse 3s ease-in-out infinite;
+      }
+      .float-particle {
+        animation: float 6s ease-in-out infinite;
+      }
+      .rotate-ring {
+        transform-origin: 1020px 180px;
+        animation: rotate 24s linear infinite;
+      }
+      .wave-path {
+        animation: waveShift 8s ease-in-out infinite alternate;
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.4; }
+        50% { transform: scale(1.15); opacity: 0.8; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-12px); }
+      }
+      @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes waveShift {
+        0% { transform: translateX(0px); }
+        100% { transform: translateX(-30px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Orbs -->
+  <circle cx="150" cy="80" r="180" fill="#10b981" opacity="0.12" filter="url(#softGlow)" class="pulse-circle" style="transform-origin: 150px 80px;" />
+  <circle cx="1050" cy="200" r="160" fill="#0284c7" opacity="0.15" filter="url(#softGlow)" class="pulse-circle" style="transform-origin: 1050px 200px; animation-delay: 1.5s;" />
+
+  <!-- Background Tech Grid Lines -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="360" />
+    <line x1="250" y1="0" x2="250" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="550" y1="0" x2="550" y2="360" />
+    <line x1="700" y1="0" x2="700" y2="360" />
+    <line x1="850" y1="0" x2="850" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+    <line x1="0" y1="90" x2="1200" y2="90" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="270" x2="1200" y2="270" />
+  </g>
+
+  <!-- Dynamic Wave Element at Bottom -->
+  <path class="wave-path" d="M0,320 C300,290 600,340 900,310 C1050,295 1150,330 1200,315 L1200,360 L0,360 Z" fill="#10b981" opacity="0.08" />
+
+  <!-- Eco Tech Rotating Graphic Right Side -->
+  <g class="rotate-ring">
+    <circle cx="1020" cy="180" r="100" stroke="url(#emeraldGlow)" stroke-width="2" stroke-dasharray="8 6" fill="none" opacity="0.6" />
+    <circle cx="1020" cy="180" r="75" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="14 8" fill="none" opacity="0.4" />
+    <circle cx="1020" cy="180" r="50" stroke="#34d399" stroke-width="1" stroke-dasharray="4 4" fill="none" opacity="0.5" />
+  </g>
+
+  <!-- Central Planet/ESG Earth Icon Inside Right Ring -->
+  <g transform="translate(1020, 180)">
+    <circle cx="0" cy="0" r="36" fill="#064e3b" stroke="#34d399" stroke-width="2" filter="url(#glow)" />
+    <!-- Leaf / ESG Graphic -->
+    <path d="M-8,-16 C12,-16 18,-4 18,12 C-2,12 -8,0 -8,-16 Z" fill="url(#leafGrad)" />
+    <path d="M-8,12 C-8,-4 2,-12 14,-14" stroke="#a7f3d0" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    <circle cx="0" cy="0" r="3" fill="#ffffff" />
+  </g>
+
+  <!-- Floating Carbon Molecule Nodes -->
+  <g class="float-particle">
+    <circle cx="890" cy="90" r="6" fill="#34d399" filter="url(#glow)" />
+    <text x="905" y="95" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#a7f3d0">Scope 1-2-3</text>
+    <line x1="890" y1="96" x2="940" y2="135" stroke="#34d399" stroke-width="1" stroke-dasharray="3 3" opacity="0.5" />
+  </g>
+  <g class="float-particle" style="animation-delay: 2s;">
+    <circle cx="910" cy="270" r="6" fill="#38bdf8" filter="url(#glow)" />
+    <text x="925" y="275" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#bae6fd">CSRD &amp; ESRS</text>
+  </g>
+  <g class="float-particle" style="animation-delay: 3.5s;">
+    <circle cx="1130" cy="90" r="5" fill="#10b981" filter="url(#glow)" />
+    <text x="1110" y="75" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#6ee7b7">GHG Protocol</text>
+  </g>
+
+  <!-- Left Content Area -->
+  <!-- Top Category Chip -->
+  <g transform="translate(70, 52)">
+    <rect width="210" height="30" rx="15" fill="#064e3b" stroke="#059669" stroke-width="1.2" />
+    <circle cx="18" cy="15" r="5" fill="#34d399" filter="url(#glow)" />
+    <text x="32" y="20" class="badge-text">&#127793; AWESOME ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="70" y="132" class="title-text">
+    Awesome ESG Reporting Platform
+  </text>
+
+  <!-- Subtitle / Tagline -->
+  <text x="70" y="174" class="sub-text">
+    The Definitive Guide to Carbon Accounting, GHG Inventory &amp; ESG Disclosure Tools
+  </text>
+
+  <!-- Feature Pills / Highlights -->
+  <g transform="translate(70, 215)">
+    <!-- Pill 1: SaaS Platforms -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="18" y="22" class="pill-text">&#127970; Enterprise SaaS</text>
+    </g>
+    <!-- Pill 2: Open Source -->
+    <g transform="translate(192, 0)">
+      <rect width="180" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="18" y="22" class="pill-text">&#128187; Open-Source Engines</text>
+    </g>
+    <!-- Pill 3: Scope 1-2-3 -->
+    <g transform="translate(384, 0)">
+      <rect width="180" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="18" y="22" class="pill-text">&#128202; Scope 1, 2 &amp; 3</text>
+    </g>
+    <!-- Pill 4: CSRD & SEC -->
+    <g transform="translate(576, 0)">
+      <rect width="190" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="18" y="22" class="pill-text">&#9878;&#65039; CSRD / ESRS / SEC</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Gradient Bar -->
+  <rect x="70" y="282" width="696" height="4" rx="2" fill="url(#emeraldGlow)" />
+  <text x="70" y="312" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="500" fill="#64748b">
+    &#9889; Transparent Pricing • Star-Ranked Open Repositories • Multi-Framework Compliance
+  </text>
+</svg>
