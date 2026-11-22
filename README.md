@@ -66,7 +66,7 @@ The table below catalogs enterprise SaaS platforms for carbon accounting, EHS, a
 | **[Novisto](https://novisto.com/)** | **~$120M Valuation** / ~$21M ARR *($56M Funding)* | Specialized ESG data management and reporting software engineered for structured disclosure, multi-framework alignment, and assurance readiness. | Starts at ~CA$40,000/year (~US$29,500/year; ~$2,460/month) for core ESG reporting modules | 14-day guided proof-of-concept trial with scoped data ingestion during sales evaluation *(no free-forever tier)* |
 | **[Plan A](https://plana.earth/)** | **~$100M Valuation** / ~$12M ARR *($40M Funding)* | Certified B Corp carbon accounting and ESG platform helping businesses automate Scope 1-3 data collection and CSRD alignment. | Starts at ~€1,200–€1,500/month (~€14,400–€18,000/year) for SMB carbon accounting tiers | Free web emissions calculator; 14-day guided pilot trial with sample company emissions data upload upon consultation *(no free-forever tier)* |
 | **[Greenstone](https://www.greenstoneplus.com/)** | **~$80M+ Valuation** *(Cority Group)* | Enterprise ESG and supply chain sustainability software delivering investor-grade reporting and supplier engagement. | Starts at ~$18,000–$24,000/year (~$1,500–$2,000/month) for base ESG data management module | 14-day guided pilot with up to 10 user accounts following initial solution scoping *(no free-forever tier)* |
-
+| **[EcoDiligence](https://ecodiligence.com)** | Reusable, self-reported ESG Passports for SMEs and suppliers, with structured data, customer sharing, and VSME-aligned reporting exports. | Early-Stage / Bootstrapped | Free; paid plans from $29/month | Free forever: 1 ESG Passport |
 ---
 
 ## 💻 Open-Source GitHub Projects
